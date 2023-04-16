@@ -8,7 +8,6 @@ const Block blocks[] = {
 //	BLOCK("sb-disk",    1800, 19),
 //	BLOCK("sb-loadavg", 5,    21),
 //	BLOCK("sb-mic",     0,    26),
-//	BLOCK("sb-record",  0,    27),
-//	BLOCK("volume", 0,    5),
-    	BLOCK("date",   1800, 1)
+	BLOCK("pamixer --get-volume-human", 10, 2),
+    BLOCK("date",   60, 1),
 };
